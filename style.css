@@ -28,33 +28,35 @@ h1{
 }
 .half-width img{
     width: 100%;
+    height: auto;
 }
-.project{
-    margin-top: 700px;
+.dark{
+    width: 28%;
     float: left;
-}
-
-.hard{
-    max-width: 500px;
-    margin: auto;
-    background: #f2f2f2;
-    overflow: auto;
-}
-
-.working{
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 390px;
-    
+    margin-left: 5%;
+    padding-left: 2;
+    clear: both;
     
     
 
-
 }
-
+h2{
+   text-align: center;
 }
-.desc{
-    padding: 15px;
-    text-align: center;
+p{
+    text-align: justify;
+}  
+
+
+.three-width img{
+    width: 100%;
+}
+.three-width{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 8px;
+    width: 50%
+    
+    
+    
+    
 }
